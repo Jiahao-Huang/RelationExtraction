@@ -1,0 +1,4 @@
+[2021-04-12 10:14:23,409][__main__][INFO] - device: cpu
+[2021-04-12 10:14:23,411][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/train.pkl
+[2021-04-12 10:14:23,443][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/valid.pkl
+[2021-04-12 10:14:23,463][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/test.pkl

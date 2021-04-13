@@ -1,0 +1,4 @@
+[2021-04-12 17:31:28,598][__main__][INFO] - device: cuda:1
+[2021-04-12 17:31:28,599][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/train.pkl
+[2021-04-12 17:31:28,615][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/valid.pkl
+[2021-04-12 17:31:28,621][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/test.pkl

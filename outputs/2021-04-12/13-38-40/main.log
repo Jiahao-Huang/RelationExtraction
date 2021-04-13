@@ -1,0 +1,8 @@
+[2021-04-12 13:38:41,483][__main__][INFO] - device: cuda:1
+[2021-04-12 13:38:41,484][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/train.pkl
+[2021-04-12 13:38:41,500][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/valid.pkl
+[2021-04-12 13:38:41,509][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/test.pkl
+[2021-04-12 13:38:47,779][__main__][INFO] - ========== Start training ==========
+[2021-04-12 13:38:47,780][trainer][INFO] - rel training:
+[2021-04-12 13:38:51,223][trainer][INFO] - Train Epoch 1: [320/3000 (11%)]	Loss: 2.385037
+[2021-04-12 13:38:51,223][trainer][INFO] - Train Epoch 1: Acc: 11.56%	macro metrics: [p: 0.1110, r:0.1107, f1:0.0655]

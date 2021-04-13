@@ -1,0 +1,24 @@
+cwd: /home/deployer/hjh/RelationExtraction
+data_path: data/origin
+out_path: data/out
+tokenizer_path: data/tokenizer
+vocab_size: 21128
+preprocess: false
+use_gpu: true
+gpu_id: 1
+batch_size: 32
+model_rel:
+  cwd: /home/deployer/hjh/RelationExtraction
+  pretrained_path: pretrained
+  lstm_in: 768
+  lstm_hid: 1024
+  lstm_layers: 2
+  lstm_drop: 0.2
+  num_relations: 11
+model_tail:
+  model_in: 512
+  enc_n_heads: 4
+  enc_layers: 4
+  dec_n_heads: 4
+  dec_layers: 4
+  vocab_size: 21128

@@ -1,0 +1,6 @@
+
+cwd: "/home/deployer/hjh/RelationExtraction"
+
+defaults:
+  - preprocess
+  - model

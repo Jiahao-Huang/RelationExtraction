@@ -1,0 +1,8 @@
+cwd: /home/deployer/hjh/RelationExtraction
+data_path: data/origin
+out_path: data/out
+tokenizer_path: data/tokenizer
+vocab_size: 21128
+preprocess: true
+use_gpu: true
+gpu_id: 1

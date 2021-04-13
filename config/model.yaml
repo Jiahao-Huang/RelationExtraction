@@ -1,0 +1,46 @@
+
+# train
+use_gpu: True
+gpu_id: 1
+train_log: True
+log_interval: 10
+# dataset
+batch_size: 16
+
+# train
+epoch: 30
+trained_model: "models/trained"
+
+# relation model
+model_rel:
+  # model
+  cwd: "/home/deployer/hjh/RelationExtraction"
+  pretrained_path: "pretrained"
+  lstm_in: 768
+  lstm_hid: 256
+  lstm_layers: 2
+  lstm_drop: 0.2
+  num_relations: 11
+  bidirectional: True
+
+  # train
+  lr: 1e-6
+  weight_decay: 3e-3
+  lr_factor: 0.6 # 学习率的衰减率
+  lr_patience: 3
+
+model_tail:
+  # Encoder
+  model_in: 512
+  enc_n_heads: 4
+  enc_layers: 4
+  # Decoder
+  dec_n_heads: 4
+  dec_layers: 4
+  vocab_size: 21128
+
+  # train
+  lr: 1e-6
+  weight_decay: 1e-3
+  lr_factor: 0.7 # 学习率的衰减率
+  lr_patience: 3

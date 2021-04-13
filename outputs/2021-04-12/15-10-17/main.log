@@ -1,0 +1,6 @@
+[2021-04-12 15:10:18,679][__main__][INFO] - device: cuda:1
+[2021-04-12 15:10:18,679][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/train.pkl
+[2021-04-12 15:10:18,697][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/valid.pkl
+[2021-04-12 15:10:18,701][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/test.pkl
+[2021-04-12 15:10:18,760][trainer][INFO] - ========== Start rel training ==========
+[2021-04-12 15:10:24,480][trainer][INFO] - rel training:

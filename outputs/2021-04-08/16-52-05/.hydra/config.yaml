@@ -1,0 +1,4 @@
+cwd: .
+data_path: data/origin
+out_path: data/out
+tokenizer_path: data/tokenizer

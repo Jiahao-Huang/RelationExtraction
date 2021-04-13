@@ -1,0 +1,46 @@
+[2021-04-12 15:12:03,798][__main__][INFO] - device: cuda:1
+[2021-04-12 15:12:03,799][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/train.pkl
+[2021-04-12 15:12:03,816][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/valid.pkl
+[2021-04-12 15:12:03,821][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/test.pkl
+[2021-04-12 15:12:03,878][trainer][INFO] - ========== Start rel training ==========
+[2021-04-12 15:12:09,599][trainer][INFO] - rel training:
+[2021-04-12 15:12:11,574][trainer][INFO] - Train Epoch 1: [160/3000 (5%)]	Loss: 2.434117
+[2021-04-12 15:12:11,574][trainer][INFO] - Train Epoch 1: Acc: 10.00%	macro metrics: [p: 0.0364, r:0.0747, f1:0.0416]
+[2021-04-12 15:12:13,763][trainer][INFO] - Train Epoch 1: [320/3000 (11%)]	Loss: 2.303990
+[2021-04-12 15:12:13,763][trainer][INFO] - Train Epoch 1: Acc: 16.25%	macro metrics: [p: 0.0624, r:0.1073, f1:0.0661]
+[2021-04-12 15:12:15,843][trainer][INFO] - Train Epoch 1: [480/3000 (16%)]	Loss: 2.328831
+[2021-04-12 15:12:15,843][trainer][INFO] - Train Epoch 1: Acc: 17.71%	macro metrics: [p: 0.0597, r:0.1147, f1:0.0698]
+[2021-04-12 15:12:17,909][trainer][INFO] - Train Epoch 1: [640/3000 (21%)]	Loss: 2.259082
+[2021-04-12 15:12:17,909][trainer][INFO] - Train Epoch 1: Acc: 19.69%	macro metrics: [p: 0.1813, r:0.1289, f1:0.0866]
+[2021-04-12 15:12:20,493][trainer][INFO] - Train Epoch 1: [800/3000 (27%)]	Loss: 2.198560
+[2021-04-12 15:12:20,493][trainer][INFO] - Train Epoch 1: Acc: 20.75%	macro metrics: [p: 0.1537, r:0.1386, f1:0.0961]
+[2021-04-12 15:12:22,533][trainer][INFO] - Train Epoch 1: [960/3000 (32%)]	Loss: 2.286003
+[2021-04-12 15:12:22,533][trainer][INFO] - Train Epoch 1: Acc: 22.71%	macro metrics: [p: 0.1792, r:0.1527, f1:0.1107]
+[2021-04-12 15:12:24,910][trainer][INFO] - Train Epoch 1: [1120/3000 (37%)]	Loss: 2.232308
+[2021-04-12 15:12:24,910][trainer][INFO] - Train Epoch 1: Acc: 24.82%	macro metrics: [p: 0.1678, r:0.1670, f1:0.1234]
+[2021-04-12 15:12:27,012][trainer][INFO] - Train Epoch 1: [1280/3000 (43%)]	Loss: 2.184671
+[2021-04-12 15:12:27,012][trainer][INFO] - Train Epoch 1: Acc: 25.86%	macro metrics: [p: 0.1624, r:0.1743, f1:0.1300]
+[2021-04-12 15:12:29,520][trainer][INFO] - Train Epoch 1: [1440/3000 (48%)]	Loss: 2.119100
+[2021-04-12 15:12:29,520][trainer][INFO] - Train Epoch 1: Acc: 27.36%	macro metrics: [p: 0.1604, r:0.1829, f1:0.1367]
+[2021-04-12 15:12:32,020][trainer][INFO] - Train Epoch 1: [1600/3000 (53%)]	Loss: 2.076118
+[2021-04-12 15:12:32,020][trainer][INFO] - Train Epoch 1: Acc: 28.88%	macro metrics: [p: 0.1800, r:0.1944, f1:0.1474]
+[2021-04-12 15:12:34,224][trainer][INFO] - Train Epoch 1: [1760/3000 (59%)]	Loss: 2.050044
+[2021-04-12 15:12:34,224][trainer][INFO] - Train Epoch 1: Acc: 31.08%	macro metrics: [p: 0.2009, r:0.2091, f1:0.1627]
+[2021-04-12 15:12:36,670][trainer][INFO] - Train Epoch 1: [1920/3000 (64%)]	Loss: 2.023420
+[2021-04-12 15:12:36,670][trainer][INFO] - Train Epoch 1: Acc: 33.02%	macro metrics: [p: 0.2153, r:0.2221, f1:0.1769]
+[2021-04-12 15:12:38,931][trainer][INFO] - Train Epoch 1: [2080/3000 (69%)]	Loss: 1.943108
+[2021-04-12 15:12:38,931][trainer][INFO] - Train Epoch 1: Acc: 34.81%	macro metrics: [p: 0.2405, r:0.2365, f1:0.1941]
+[2021-04-12 15:12:41,030][trainer][INFO] - Train Epoch 1: [2240/3000 (75%)]	Loss: 1.962705
+[2021-04-12 15:12:41,031][trainer][INFO] - Train Epoch 1: Acc: 36.03%	macro metrics: [p: 0.2461, r:0.2471, f1:0.2063]
+[2021-04-12 15:12:43,158][trainer][INFO] - Train Epoch 1: [2400/3000 (80%)]	Loss: 1.791778
+[2021-04-12 15:12:43,158][trainer][INFO] - Train Epoch 1: Acc: 37.83%	macro metrics: [p: 0.2601, r:0.2596, f1:0.2216]
+[2021-04-12 15:12:45,244][trainer][INFO] - Train Epoch 1: [2560/3000 (85%)]	Loss: 1.995489
+[2021-04-12 15:12:45,244][trainer][INFO] - Train Epoch 1: Acc: 39.06%	macro metrics: [p: 0.2680, r:0.2694, f1:0.2331]
+[2021-04-12 15:12:47,470][trainer][INFO] - Train Epoch 1: [2720/3000 (91%)]	Loss: 1.972051
+[2021-04-12 15:12:47,470][trainer][INFO] - Train Epoch 1: Acc: 40.15%	macro metrics: [p: 0.2725, r:0.2783, f1:0.2424]
+[2021-04-12 15:12:49,831][trainer][INFO] - Train Epoch 1: [2880/3000 (96%)]	Loss: 1.798248
+[2021-04-12 15:12:49,831][trainer][INFO] - Train Epoch 1: Acc: 41.70%	macro metrics: [p: 0.2820, r:0.2885, f1:0.2540]
+[2021-04-12 15:12:51,503][trainer][INFO] - Train Epoch 1: [3000/3000 (100%)]	Loss: 1.667813
+[2021-04-12 15:12:51,503][trainer][INFO] - Train Epoch 1: Acc: 42.83%	macro metrics: [p: 0.2879, r:0.2961, f1:0.2624]
+[2021-04-12 15:12:55,762][trainer][INFO] - Valid Epoch 1: [1000/1000](100%)	 rel Loss: 2.718581
+[2021-04-12 15:12:55,762][trainer][INFO] - Valid Epoch 1: rel Acc: 5.10%	

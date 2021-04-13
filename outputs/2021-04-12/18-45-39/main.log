@@ -1,0 +1,6 @@
+[2021-04-12 18:45:40,688][__main__][INFO] - device: cuda:1
+[2021-04-12 18:45:40,688][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/train.pkl
+[2021-04-12 18:45:40,705][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/valid.pkl
+[2021-04-12 18:45:40,710][utils][INFO] - load data from /home/deployer/hjh/RelationExtraction/data/out/test.pkl
+[2021-04-12 18:45:52,822][trainer][INFO] - Test Data: [1000/1000](100%)	 Relation Loss: 0.745255	 Tail Loss: 0.933391
+[2021-04-12 18:45:52,822][trainer][INFO] - Test Data: Relation Acc: 86.20%	 Tail Acc: 89.02%
